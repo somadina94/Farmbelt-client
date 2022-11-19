@@ -1,0 +1,86 @@
+.item {
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  background-color: #26304e;
+  padding: 1rem;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  color: #fff;
+  position: relative;
+}
+
+.img {
+  width: 10rem;
+  height: 14rem;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.item h3 {
+  font-size: 1.8rem;
+}
+
+.item p {
+  font-size: 1.8rem;
+}
+
+.item a,
+.item a:active,
+.item a:visited {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border: 3px solid #fff;
+  background-color: #26304e;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.item button {
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #c92a2a;
+  padding: 1rem 2rem;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 27.5em) {
+  .item {
+    max-width: 18rem;
+    gap: 0.6rem;
+  }
+
+  .img {
+    width: 6rem;
+    height: 8rem;
+  }
+
+  .item h3 {
+    font-size: 1.2rem;
+  }
+
+  .item p {
+    font-size: 1.2rem;
+  }
+
+  .item a,
+  .item a:active,
+  .item a:visited {
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .item button {
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+  }
+}

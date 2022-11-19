@@ -1,0 +1,73 @@
+.invoice {
+  max-width: 60rem;
+  margin: auto;
+  background-color: #fff;
+  border: 3px solid #26304e;
+  border-radius: 8px;
+  padding: 2rem;
+  color: black;
+}
+
+.logo {
+  max-width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #26304e;
+}
+
+.customer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 3px solid #26304e;
+  margin-bottom: 2rem;
+}
+
+.customer span {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.customer p {
+  font-size: 1.4rem;
+}
+
+.products {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 3px solid #26304e;
+  margin-bottom: 2rem;
+}
+
+.detail span {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.detail p {
+  font-size: 1.4rem;
+}
+
+.terms {
+  padding: 1.4rem;
+  border-bottom: 2px solid #26304e;
+}
+
+.terms h3 {
+  margin-bottom: 1rem;
+}
+
+.terms li {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}

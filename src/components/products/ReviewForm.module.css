@@ -1,0 +1,85 @@
+.form {
+  min-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: auto;
+  border: 3px solid #fff;
+  gap: 4rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+}
+
+.group label {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.group textarea {
+  height: 10rem;
+  background-color: #26304e;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  font-size: 1.4rem;
+}
+
+.group select {
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #26304e;
+  height: 3.8rem;
+  border: 3px solid #fff;
+  border-radius: 8px;
+}
+
+.action button {
+  background-color: transparent;
+  color: #fff;
+  padding: 1.2rem 8rem;
+  font-size: 1.8rem;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.action button:hover {
+  background-color: black;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.invalid textarea {
+  border: 2px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid select {
+  border: 2px solid #b40e0e;
+}
+
+.invalid label {
+  color: #b40e0e;
+}
+
+.invalid textarea:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}

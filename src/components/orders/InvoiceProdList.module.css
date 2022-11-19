@@ -1,0 +1,20 @@
+.product {
+  border-bottom: 3px solid #26304e;
+  padding: 1rem;
+  color: black;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.detail span {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.detail p {
+  font-size: 1.4rem;
+}

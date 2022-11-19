@@ -1,0 +1,90 @@
+.nav {
+  max-width: 100rem;
+}
+
+.nav a,
+.nav a:active,
+.nav a:hover,
+.nav a:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #dee2e6;
+  padding: 1rem 4rem;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 8px;
+}
+
+.nav a:hover {
+  background-color: #26304e;
+  border: 2px solid #fff;
+  padding: 1rem 4rem;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav .active {
+  background-color: #26304e;
+  border: 2px solid #fff;
+  padding: 1rem 4rem;
+}
+
+@media (max-width: 82em) {
+  .nav a,
+  .nav a:hover,
+  .nav a:active,
+  .nav a:visited {
+    font-size: 1.4rem;
+    padding: 0.4rem 2rem;
+  }
+
+  .nav .active {
+    padding: 0.4rem 2rem;
+  }
+}
+
+@media (max-width: 52em) {
+  .nav a,
+  .nav a:hover,
+  .nav a:active,
+  .nav a:visited {
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+  }
+  .nav .active {
+    padding: 0.4rem 1rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .nav a,
+  .nav a:hover,
+  .nav a:active,
+  .nav a:visited {
+    font-size: 0.8rem;
+    padding: 0.1rem 0.4rem;
+  }
+
+  .nav .active {
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 26.4em) {
+  .nav a,
+  .nav a:visited,
+  .nav a:active {
+    font-size: 0.8rem;
+    padding: 0.1rem 0.2rem;
+  }
+
+  .nav .active {
+    padding: 0.1rem 0.2rem;
+  }
+}
+
+/* #26304e */

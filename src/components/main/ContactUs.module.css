@@ -1,0 +1,45 @@
+.form {
+  position: relative;
+  max-width: 70rem;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #fff;
+  padding: 2rem;
+  background-color: #26304e;
+}
+
+.input {
+  height: 4rem;
+  font-size: 1.8rem;
+  border: 3px solid #fff;
+  background-color: #26304e;
+  color: #fff;
+}
+
+.form label {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.textarea {
+  height: 16rem;
+  font-size: 1.8rem;
+  border: 3px solid #fff;
+  margin-bottom: 2rem;
+  background-color: #26304e;
+  color: #fff;
+}
+
+.form button {
+  background-color: #26304e;
+  font-size: 2rem;
+  max-width: 20rem;
+  padding: 1rem 4rem;
+  margin: auto;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  color: #fff;
+}

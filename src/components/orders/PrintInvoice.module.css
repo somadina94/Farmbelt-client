@@ -1,0 +1,23 @@
+.button {
+  background-color: #26304e;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  cursor: pointer;
+  padding-left: 0;
+}
+
+.printDiv {
+  display: inline-block;
+  margin-left: 0.4rem;
+}
+
+@media (max-width: 25.8em) {
+  .button {
+    max-width: 10rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+}

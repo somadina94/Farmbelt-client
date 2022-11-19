@@ -1,0 +1,126 @@
+.details {
+  max-width: 100%;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgba(38, 48, 78, 0.5);
+  border-top: 3px solid #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.detail span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.detail p {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.address {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address span {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.address p {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.receipient {
+  border: 3px solid #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 3px solid #fff;
+  border-radius: 8px;
+}
+
+.status span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.status p {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.products {
+  border: 3px solid #fff;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+@media (max-width: 40.6em) {
+  .detail span {
+    font-size: 1.2rem;
+  }
+
+  .detail p {
+    font-size: 0.8rem;
+  }
+
+  .address span {
+    font-size: 1.2rem;
+  }
+
+  .address p {
+    font-size: 0.8rem;
+  }
+
+  .status span {
+    font-size: 1.2rem;
+  }
+
+  .status p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .detail span {
+    font-size: 0.8rem;
+  }
+
+  .detail p {
+    font-size: 0.6rem;
+  }
+
+  .address span {
+    font-size: 0.8rem;
+  }
+
+  .address p {
+    font-size: 0.6rem;
+  }
+
+  .status span {
+    font-size: 0.8rem;
+  }
+}

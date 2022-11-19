@@ -1,0 +1,31 @@
+.products {
+  max-width: 140rem;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 6rem;
+  background-color: rgba(38, 48, 78, 0.4);
+  border-radius: 8px;
+}
+
+.products ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 4rem;
+}
+
+@media (max-width: 53em) {
+  .products ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 40em) {
+  .products ul {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .products {
+    padding: 0.2rem;
+  }
+}

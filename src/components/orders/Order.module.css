@@ -1,0 +1,189 @@
+.order {
+  border: 3px solid #ced4da;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.header {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #ced4da;
+  padding: 1rem;
+}
+
+.hContainer {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title h3 {
+  color: #ced4da;
+  font-size: 1.8rem;
+}
+
+.title p {
+  font-size: 1.4rem;
+  color: #ced4da;
+}
+
+.hContainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.title-flex {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.print {
+  justify-self: flex-end;
+}
+
+.title-flex h3 {
+  color: #ced4da;
+  font-size: 1.8rem;
+}
+
+.title-flex p {
+  font-size: 1.4rem;
+  color: #ced4da;
+}
+
+.title-link a,
+.title-link a:hover,
+.title-link a:visited,
+.title-link a:active {
+  color: blue;
+  font-size: 1.4rem;
+  padding-left: 2rem;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+}
+
+.items {
+  max-width: 50rem;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.actions a,
+.actions a:active,
+.actions a:visited {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border: 3px solid #ced4da;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  color: #ced4da;
+}
+
+.actions a:hover {
+  background-color: #1864ab;
+}
+
+@media (max-width: 48.5em) {
+  .hContainer {
+    gap: 2rem;
+  }
+
+  .title h3 {
+    font-size: 1.2rem;
+  }
+
+  .title p {
+    font-size: 1rem;
+  }
+
+  .title-flex h3 {
+    font-size: 1.2rem;
+  }
+
+  .title-flex p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 37.25em) {
+  .actions a,
+  .actions a:active,
+  .actions a:visited {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 32.25em) {
+  .hContainer {
+    gap: 0.8rem;
+    align-items: flex-start;
+  }
+
+  .title h3 {
+    font-size: 0.8rem;
+  }
+
+  .title p {
+    font-size: 0.6rem;
+    max-width: 8rem;
+  }
+
+  .title-flex h3 {
+    font-size: 0.8rem;
+  }
+
+  .title-flex p {
+    font-size: 0.6rem;
+  }
+
+  .title-flex {
+    gap: 0.8rem;
+  }
+
+  .title-link a,
+  .title-link a:hover,
+  .title-link a:visited,
+  .title-link a:active {
+    font-size: 0.8rem;
+    padding-left: 0.4rem;
+  }
+
+  .items {
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 24em) {
+  .actions a,
+  .actions a:active,
+  .actions a:visited {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.6rem;
+  }
+}
